@@ -35,7 +35,6 @@ button {
   font-family: inherit;
   border: none;
   cursor: pointer;
-
 }
 /* -------------Base styles------------- */
 .container {
@@ -51,25 +50,42 @@ img {
   height: auto;
 }
 /* ----------header---------- */
-.header {}
+.header {
+}
 
+.header-logo {
+}
 
-.header-logo {}
-
-
-.header-nav {}
+.header-nav {
+}
 
 .header-list {
   display: flex;
   align-items: center;
 }
 
-.header-item {}
+.header-item {
+}
 
 .header-link {
   padding: 32px 0;
   display: block;
 }
-.header-link:hover, .header-link:focus {
+.header-link:hover,
+.header-link:focus {
   color: var(--accent-cl);
+}
+
+/* --------------features------------- */
+.features {
+}
+.features-list {
+  display: flex;
+}
+
+.features-item {
+}
+.features-sub-title {
+}
+.features-descr {
 }
