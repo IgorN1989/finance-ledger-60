@@ -30,6 +30,12 @@ h6,
 p {
   margin: 0;
 }
+.title-section {
+  font-size: 38px;
+  line-height: 1.26;
+  font-weight: 300;
+}
+
 /* btn */
 button {
   font-family: inherit;
@@ -88,4 +94,9 @@ img {
 .features-sub-title {
 }
 .features-descr {
+}
+
+/* --------------solution------------- */
+.solutions-title {
+  color: #ffffff;
 }
