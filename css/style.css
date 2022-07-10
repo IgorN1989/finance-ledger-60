@@ -1,6 +1,12 @@
 :root {
---bg-cl: #ffffff;
---accent-cl: #28A745;
---main-text-cl: #333333;
+  --bg-cl: #ffffff;
+  --accent-cl: #28a745;
+  --main-text-cl: #333333;
+}
 
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--bg-cl);
+  color: var(--main-text-cl);
+  font-size: 18px;
 }
