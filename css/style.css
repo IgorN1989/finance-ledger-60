@@ -50,4 +50,26 @@ img {
   max-width: 100%;
   height: auto;
 }
-/*  */
+/* ----------header---------- */
+.header {}
+
+
+.header-logo {}
+
+
+.header-nav {}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.header-item {}
+
+.header-link {
+  padding: 32px 0;
+  display: block;
+}
+.header-link:hover, .header-link:focus {
+  color: var(--accent-cl);
+}
